@@ -1,0 +1,72 @@
+{
+  "cities":[
+    {
+      "id":0,
+      "name":"Managua"
+    },
+    {
+      "id":1,
+      "name":"Matagalpa"
+    },
+    {
+      "id":2,
+      "name":"Esteli"
+    },
+    {
+      "id":3,
+      "name":"Jinotega"
+    },
+    {
+      "id":4,
+      "name":"Rivas"
+    },
+    {
+      "id":5,
+      "name":"Chinandega"
+    },
+    {
+      "id":6,
+      "name":"Leon"
+    },
+    {
+      "id":7,
+      "name":"Madriz"
+    },
+    {
+      "id":8,
+      "name":"Masaya"
+    },
+    {
+      "id":9,
+      "name":"Chontales"
+    },
+    {
+      "id":10,
+      "name":"Granada"
+    },
+    {
+      "id":11,
+      "name":"Boaco"
+    },
+    {
+      "id":12,
+      "name":"Carazo"
+    },
+    {
+      "id":13,
+      "name":"Nueva Segovia"
+    },
+    {
+      "id":14,
+      "name":"Rio San Juan"
+    },
+    {
+      "id":15,
+      "name":"Atlantico Sur"
+    },
+    {
+      "id":16,
+      "name":"Atlantico Norte"
+    }
+  ]
+}
