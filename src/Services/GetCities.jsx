@@ -6,7 +6,10 @@ export default function GetCities({ city }) {
   return fetch(urlApi)
     .then(response => response.json())
     .then(res => {
-      const data = res
-      return console.log(data);
+      const cities = res.map(item => {
+        const { name, id, url } = item
+        return { name, id, url }
+      })
+      return cities;
     })
 }

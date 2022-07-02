@@ -1,0 +1,45 @@
+.cities-container {
+  width: 200px;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 100%;
+  outline: 0;
+  margin-left: 15px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 1rem;
+}
+
+.header-form {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+}
+
+.Regions-container {
+  position: fixed;
+  top: 33px;
+  width: 50%;
+  background-color: #222222;
+  border-right: solid 1px black;
+}
+
+.region-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item__region {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+  border-bottom: solid 1px black;
+  color: white;
+  cursor: pointer;
+}
+
+.list-item__region:hover {
+  background-color: #396C9A;
+}

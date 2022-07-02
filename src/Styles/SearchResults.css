@@ -1,0 +1,80 @@
+.main-container {
+  width: 50%;
+  margin: 33px 0 0 auto;
+  background-color: #222;
+  height: calc(100vh - 33px);
+}
+
+.city-name__container {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px #151515;
+}
+
+.city-name {
+  color: #5399d6;
+  margin: 10px 0;
+}
+
+.info-header__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid 1px #151515;
+}
+
+.info-header {
+  display: flex;
+  width: 80%;
+}
+
+.info-header__icon {
+  display: flex;
+  width: 50%;
+}
+
+.weather-icon {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.info-header__tempeture {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.tempeture-info {
+  margin: 0 auto;
+  height: fit-content;
+  font-size: 3rem;
+  color: white;
+}
+
+.weather-info {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.info-body__list {
+  list-style: none;
+  padding: 0 40px;
+  margin: 0;
+}
+
+.info-list__item {
+  display: flex;
+  width: 100%;
+  border-bottom: solid 1px #151515;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.info-title {
+  width: 50%;
+}
+
+.info-data {
+  width: 50%;
+  text-align: right;
+}
