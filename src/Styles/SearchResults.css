@@ -2,7 +2,7 @@
   width: 50%;
   margin: 33px 0 0 auto;
   background-color: #222;
-  height: calc(100vh - 33px);
+  height: auto;
 }
 
 .city-name__container {
@@ -58,7 +58,7 @@
 
 .info-body__list {
   list-style: none;
-  padding: 0 40px;
+  padding: 5px 40px;
   margin: 0;
 }
 
@@ -77,4 +77,16 @@
 .info-data {
   width: 50%;
   text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tempeture-info {
+    font-size: 2rem;
+  }
 }

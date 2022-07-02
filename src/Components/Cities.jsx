@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react';
-import { Link } from 'wouter';
+import { Link, useLocation } from 'wouter';
 
 export default function Cities({ value }) {
+  const [path, pushLocation] = useLocation()
+
+  const handleChangeRegion = (e) => {
+    pushLocation(`/search/${e.target.value}`)
+  }
 
   return (
     <div className="region-list-container">
@@ -16,6 +21,15 @@ export default function Cities({ value }) {
           ))
         }
       </ul>
+      <select name="region" id="region-select" className="region-list__select" onChange={handleChangeRegion}>
+        {
+          value.map(({ name, id, url }) => (
+            <option key={id} className="list-item__region" value={url}>
+              {name}
+            </option>
+          ))
+        }
+      </select>
     </div>
   )
 }
