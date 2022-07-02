@@ -93,9 +93,11 @@
 @media screen and (max-width: 400px) {
   .cities-container {
     width: 150px;
+    margin-left: 5px;
   }
 
   .region-list__select {
     width: 150px;
+    margin-left: 5px;
   }
 }
