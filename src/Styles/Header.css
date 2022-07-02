@@ -6,7 +6,7 @@
   outline: 0;
   margin-left: 15px;
   color: white;
-  background-color: black;
+  background-color: #111;
   border: none;
   font-size: 1rem;
 }
@@ -22,7 +22,7 @@
   position: fixed;
   top: 33px;
   width: 50%;
-  background-color: #222222;
+  background-color: #111;
   border-right: solid 1px black;
 }
 
@@ -42,4 +42,49 @@
 
 .list-item__region:hover {
   background-color: #396C9A;
+}
+
+.region-list__select {
+  display: none;
+}
+
+.region-list__select {
+  width: 200px;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 100%;
+  outline: 0;
+  margin-left: 15px;
+  color: white;
+  background-color: #111;
+  border: none;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .region-list__select {
+    display: block;
+  }
+
+  .region-list {
+    display: none;
+  }
+
+  .header-container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    background-color: #111;
+  }
+
+  .header-form {
+    position: unset;
+    width: fit-content;
+  }
+
+  .Regions-container {
+    position: unset;
+    width: fit-content;
+  }
 }
