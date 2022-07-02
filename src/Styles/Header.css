@@ -22,7 +22,7 @@
   position: fixed;
   top: 33px;
   width: 50%;
-  background-color: #111;
+  background-color: #222;
   border-right: solid 1px black;
 }
 
@@ -86,5 +86,16 @@
   .Regions-container {
     position: unset;
     width: fit-content;
+    background-color: #111;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cities-container {
+    width: 150px;
+  }
+
+  .region-list__select {
+    width: 150px;
   }
 }
