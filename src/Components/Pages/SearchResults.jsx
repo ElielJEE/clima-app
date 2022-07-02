@@ -99,7 +99,9 @@ export default function SearchResults({ params }) {
           ) :
           (
             <div className="no-results-content">
-              no
+              <p className="no-results">
+                Esperando resultados...
+              </p>
             </div>
           )
       }

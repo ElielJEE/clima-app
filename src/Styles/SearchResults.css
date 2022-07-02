@@ -79,6 +79,10 @@
   text-align: right;
 }
 
+.no-results {
+  color: white;
+}
+
 @media screen and (max-width: 900px) {
   .main-container {
     width: 100%;
