@@ -1,3 +1,24 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: #111;
+  z-index: 10;
+}
+
+.page-title {
+  margin: 0 20px 0 0;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.header-content {
+  margin-right: auto;
+}
+
 .cities-container {
   width: 200px;
   cursor: pointer;
@@ -11,19 +32,13 @@
   font-size: 1rem;
 }
 
-.header-form {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #111;
-}
-
 .Regions-container {
   position: fixed;
   top: 33px;
   width: 50%;
   background-color: #222;
   border-right: solid 1px black;
+  z-index: 1;
 }
 
 .region-list {
@@ -70,12 +85,8 @@
     display: none;
   }
 
-  .header-container {
-    position: fixed;
-    top: 0;
+  .header-content {
     display: flex;
-    width: 100%;
-    background-color: #111;
   }
 
   .header-form {
@@ -87,6 +98,17 @@
     position: unset;
     width: fit-content;
     background-color: #111;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-title {
+    margin: 10px 0;
   }
 }
 
